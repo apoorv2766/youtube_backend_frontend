@@ -4,7 +4,7 @@
   "description": "This is full stack on youtube clone where user can see video and upload also",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "frontend",
@@ -12,5 +12,8 @@
     "git"
   ],
   "author": "Apoorv Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
